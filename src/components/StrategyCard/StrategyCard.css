@@ -1,0 +1,49 @@
+.strategy-cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.strategy-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(211, 220, 242);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  font-weight: 700;
+  color: #4c4c53;
+}
+
+.strategy-count {
+  font-size: small;
+  color: rgb(163, 158, 192);
+}
+
+.strategy-card-bulletPoint {
+  font-size: larger;
+  margin-right: 4px;
+}
+
+.no-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.no-data-text {
+  font-size: medium;
+  color: #a29c9c;
+}
+
+.no-data-date {
+  font-size: large;
+  color: #3e3737;
+}
