@@ -59,7 +59,7 @@ function App() {
   return (
     <div className="app">
       <Toggle
-        views={['Bullish', 'Bearish', 'Rangebound', 'Volatile']}
+        views={['Bullish', 'Bearish', 'RangeBound', 'Volatile']}
         defaultView={selectedView}
         onChange={handleViewChange}
       />
